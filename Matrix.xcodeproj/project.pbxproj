@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		B0C752A921A4523D003F6B6B /* Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matrix; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C752AC21A4523D003F6B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0C752B321A45288003F6B6B /* matrix_view.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = matrix_view.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B0C752AC21A4523D003F6B6B /* main.cpp */,
+				B0C752B321A45288003F6B6B /* matrix_view.h */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -239,6 +241,7 @@
 		B0C752B121A4523D003F6B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +250,7 @@
 		B0C752B221A4523D003F6B6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
