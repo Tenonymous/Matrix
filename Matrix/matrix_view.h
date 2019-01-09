@@ -15,6 +15,7 @@
 #include <iostream>
 #include <exception>
 
+
 namespace mtrx
 {
     using std::array;
@@ -106,11 +107,13 @@ namespace mtrx
     matrix<T, ROW, COL> operator +(matrix<T, ROW, COL> m1, matrix<T, ROW, COL> m2)
     {
         matrix<T, ROW, COL> temp;
+        
         for (size_t row{0}; row != ROW; ++row) {
             for (size_t col{0}; col != COL; ++col) {
                 temp[row][col] = m1[row][col] + m2[row][col];
             }
         }
+         
         return temp;
     }
     

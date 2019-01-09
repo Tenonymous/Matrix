@@ -7,7 +7,6 @@
 //
 
 #include "matrix_view.h"
-
 using namespace mtrx;
 
 int main(int argc, const char * argv[]) {
